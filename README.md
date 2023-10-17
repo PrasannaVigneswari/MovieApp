@@ -4,16 +4,11 @@ A React.js web application for exploring and searching movies using TMDb API.
 
 
 ## Table of Contents
-- Demo Link
 - Features
 - Usage
 - Project Structure
 - Technologies Used
 
-
-## Demo
-
-You can check out the live demo of this project at [Demo Link](link-to-your-demo).
 
 ## Features
 
