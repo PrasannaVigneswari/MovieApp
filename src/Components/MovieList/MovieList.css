@@ -1,0 +1,60 @@
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.list__title {
+font-size: 1.75rem;
+margin:  2.5rem;
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .movie__list {
+    padding: 0.5rem;
+  }
+
+  .list__title {
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .movie__list {
+    padding: 0 1rem 1rem 1rem;
+  }
+
+  .list__title {
+    font-size: 0.75rem;
+    margin: 1rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .movie__list {
+    padding: 0 2rem 2rem 2rem;
+  }
+
+  .list__title {
+    font-size: 0.75rem;
+    margin: 1.5rem;
+  }
+}
+
+@media (min-width: 1441px) {
+  .movie__list {
+    padding: 0 3rem 3rem 3rem;
+  }
+
+  .list__title {
+    font-size: 2rem;
+    margin: 3rem;
+  }
+}
+

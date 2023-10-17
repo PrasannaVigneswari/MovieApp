@@ -1,0 +1,187 @@
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #042d4a;
+}
+
+.search-bar {
+  padding: 20px;
+  background-color: #042d4a;
+  text-align: center;
+  position: fixed;
+  z-index: 1;
+}
+
+.search-bar input {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 20px;
+  padding: 20px;
+  margin-top: 80px; 
+  margin-left: auto;
+  background-color: #042d4a; 
+  color: white; 
+  z-index: 1;
+  width: 170px; 
+  overflow-y: auto;
+}
+
+.radio-container label {
+  margin: 5px 0;
+}
+
+.search-results {
+  margin-left: 220px; 
+}
+
+.centered-search-container {
+  display: flex;
+  justify-content: center;
+  align-items: start; 
+  height: 90px;
+  margin: 10px; 
+}
+
+.centered-search-container input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.centered-search-container input::placeholder {
+  color: #999;
+}
+
+.centered-search-container input:focus {
+  outline: none;
+}
+
+
+@media (max-width: 768px) {
+  .search-container {
+    flex-direction: column;
+  }
+
+  .radio-container {
+    position: static;
+    width: 100%;
+    display: flex;
+    flex-direction: row; /* Display filters in a row */
+    align-items: center;
+    justify-content: center;
+    background-color: transparent; /* Clear background color */
+    color: white;
+    margin: 0;
+    padding: 10px; /* Adjust the padding */
+  }
+
+  .radio-container label {
+    margin: 0 5px; /* Reduce spacing between individual filters */
+  }
+
+  .radio-container input[type="radio"] {
+    width: 16px; /* Reduce the size of radio buttons */
+    height: 16px;
+  }
+
+  .search-bar {
+    position: static;
+    background-color: transparent;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .centered-search-container {
+    height: auto;
+    margin: 10px;
+  }
+
+  .search-results {
+    margin-left: 0;
+  }
+  
+}
+/* ... (previous CSS code) ... */
+
+/* Additional media query for styling radio buttons and text */
+
+
+/* ... (additional CSS for other screen sizes) */
+
+/* Additional media query for styling radio buttons */
+/* Styles for small screens (e.g., smartphones) */
+@media (max-width: 768px) {
+  .radio-container {
+    display: none; /* Hide the filter genres by default */
+    position: static;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .radio-container p {
+    display: block; /* Display the "Filter by Genre:" text */
+  }
+
+  .radio-container button {
+    display: block; /* Display the toggle button */
+    margin: 10px; /* Add some margin for better spacing */
+  }
+
+  .search-bar {
+    position: static;
+    background-color: transparent;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .centered-search-container {
+    height: auto;
+    margin: 10px;
+  }
+
+  .centered-search-container input {
+    width: 100%;
+  }
+
+  .search-results {
+    margin-left: 0;
+  }
+
+  .filter-genres-dropdown {
+    display: block; 
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+
+  .filter-genres-dropdown label {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+
+

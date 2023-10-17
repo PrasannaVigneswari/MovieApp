@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Movie App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React.js web application for exploring and searching movies using TMDb API.
 
-## Available Scripts
 
-In the project directory, you can run:
+## Table of Contents
+- Demo Link
+- Features
+- Usage
+- Project Structure
+- Technologies Used
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can check out the live demo of this project at [Demo Link](link-to-your-demo).
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Browse popular, now playing, top-rated, and upcoming movies.
+ Search for movies by name and filter by genre.
+ View movie details, including trailers and additional information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Choose a movie category (popular, now playing, top-rated, upcoming) from the navigation bar.
+Search for movies by name using the search bar.
+Filter results by genre.
+Click on a movie card to view its details, including a trailer.
 
-### `npm run eject`
+### Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+/src: Contains the source code.
+/components: React components.
+/styles: CSS and styling files.
+/public: Public assets.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Technologies Used
+React.js
+React Router
+Axios
+The Movie Database (TMDb) API
+FontAwesome Icons
+CSS for styling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+here are some of the libraries and dependencies used in your project:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- React.js: I am using React as the main JavaScript library for building the user interface.
 
-## Learn More
+- React Router: I've included React Router for handling client-side routing, allowing users to navigate between different parts of your application.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Axios: Axios is used for making HTTP requests, and it appears that I am using it to fetch data from The Movie Database (TMDb) API.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- FontAwesome: FontAwesome is used for displaying icons in your application, such as the star icon and YouTube icon.
 
-### Code Splitting
+- React Loading Skeleton: I used the react-loading-skeleton library for showing loading skeletons to improve the user experience while data is being fetched.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- React Responsive Carousel: I am using the react-responsive-carousel library to implement the carousel for displaying popular movies.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The Movie Database (TMDb) for providing the API.

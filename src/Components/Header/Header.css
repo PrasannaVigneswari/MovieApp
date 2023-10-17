@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+:root{
+    --primary-color:#054273;
+    --secondary-color:#78a0bf;
+}
+.header {
+    
+    
+    display: flex;
+    justify-content:space-between;
+    background-color: #032541;
+    width: 100%;    
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+
+a > span:hover {
+    color: red;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+    padding: .5rem ;
+    margin: lrem;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+
+.notificationIcon {
+  margin-right: 20px;
+  
+}
+.bellIcon {
+  color: white; /* Make the icon white */
+  font-size: 24px;
+  margin-left: .6rem;
+   /* Increase the icon size as needed */
+}
+.userIcon{
+  width: 40px;
+  border-radius: 50%;
+  margin-left: .2rem;
+}
+
+
+@media (max-width: 768px) {
+  .header {
+    justify-content: center; 
+  }
+
+  a > span {
+    font-size: .7rem; 
+    margin: 0 3px; 
+  }
+
+  .header__icon {
+    width: 50px; 
+    padding: .2rem; 
+  }
+  .userIcon{
+    width: 30px;
+  
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  
+
+  a > span {
+    margin: 0 10px;
+    font-size: 1rem;
+  }
+
+  .header__icon {
+    width: 70px; 
+    padding: .4rem; 
+  }
+  .userIcon{
+    width: 40px;
+    margin-left: 1rem;
+    margin-right:2rem;
+  
+  }
+}
+@media (min-width: 1025px) {
+
+  a > span {
+    margin: 0 20px;
+    font-size: 1.2rem;
+  }
+
+  .header__icon {
+    width: 70px; 
+    padding: .4rem; 
+  }
+  .userIcon{
+    width: 40px;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  
+  }
+  
+}
+
+
+
