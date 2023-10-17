@@ -34,13 +34,13 @@ Click on a movie card to view its details, including a trailer.
 
 ### Technologies Used
 React.js
-React Router
-Axios
-The Movie Database (TMDb) API
-FontAwesome Icons
-CSS for styling
+,React Router
+,Axios
+,The Movie Database (TMDb) API
+,FontAwesome Icons
+,CSS for styling
 
-here are some of the libraries and dependencies used in your project:
+here are some of the libraries and dependencies used in my project:
 
 - React.js: I am using React as the main JavaScript library for building the user interface.
 
