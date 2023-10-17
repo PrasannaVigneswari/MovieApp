@@ -83,21 +83,21 @@
     position: static;
     width: 100%;
     display: flex;
-    flex-direction: row; /* Display filters in a row */
+    flex-direction: row; 
     align-items: center;
     justify-content: center;
-    background-color: transparent; /* Clear background color */
+    background-color: transparent; 
     color: white;
     margin: 0;
-    padding: 10px; /* Adjust the padding */
+    padding: 10px; 
   }
 
   .radio-container label {
-    margin: 0 5px; /* Reduce spacing between individual filters */
+    margin: 0 5px; 
   }
 
   .radio-container input[type="radio"] {
-    width: 16px; /* Reduce the size of radio buttons */
+    width: 16px; 
     height: 16px;
   }
 
@@ -118,30 +118,22 @@
   }
   
 }
-/* ... (previous CSS code) ... */
 
-/* Additional media query for styling radio buttons and text */
-
-
-/* ... (additional CSS for other screen sizes) */
-
-/* Additional media query for styling radio buttons */
-/* Styles for small screens (e.g., smartphones) */
 @media (max-width: 768px) {
   .radio-container {
-    display: none; /* Hide the filter genres by default */
+    display: none; 
     position: static;
     margin-top: 0;
     width: 100%;
   }
 
   .radio-container p {
-    display: block; /* Display the "Filter by Genre:" text */
+    display: block; 
   }
 
   .radio-container button {
-    display: block; /* Display the toggle button */
-    margin: 10px; /* Add some margin for better spacing */
+    display: block; 
+    margin: 10px; 
   }
 
   .search-bar {
