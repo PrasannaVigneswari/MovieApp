@@ -26,11 +26,7 @@
     background: none;
   }
   
-  /* .not-found-videos-img {
-    width: 200px;
-    margin-top: 200px;
-  } */
-  
+
   @media screen and (min-width: 768px) {
     .not-found-videos-img {
       width: 450px;
@@ -55,7 +51,7 @@
     background-image: url('https://res.cloudinary.com/dyx9u0bif/image/upload/v1657093957/snow-removal-machine-working-high-ski-slope-snowstorm_454047-2149_1_xgxo4o.png');
     min-height: 100vh;
     background-size: 100% 100%;
-    /* background-size: cover; */
+    
   }
   .not-found-comp-btn {
     font-family: 'roboto';
