@@ -51,10 +51,10 @@ a > span:hover {
   
 }
 .bellIcon {
-  color: white; /* Make the icon white */
+  color: white; 
   font-size: 24px;
   margin-left: .6rem;
-   /* Increase the icon size as needed */
+
 }
 .userIcon{
   width: 40px;
